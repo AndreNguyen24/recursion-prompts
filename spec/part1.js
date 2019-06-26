@@ -84,7 +84,7 @@
 
 
 
-    xdescribe('3. Sum Integers in Array', function() {
+    describe('3. Sum Integers in Array', function() {
 
       it('should return a number', function() {
         expect(typeof(arraySum([[1],[2,3],[[4]],5,6]))).to.eql('number');
@@ -1147,7 +1147,7 @@
 
 
 
-    xdescribe('35. Convert numbers to text', function() {
+    describe('35. Convert numbers to text', function() {
 
       it('should return a string', function() {
         expect(typeof(numToText("I have 5 dogs and 6 ponies"))).to.equal('string');
